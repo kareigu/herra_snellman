@@ -1,6 +1,6 @@
 FROM golang:alpine
 
-WORKDIR /go/src/niilo_bot
+WORKDIR /go/src/herra_snellman
 COPY . .
 
 RUN go get -d -v ./...

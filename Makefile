@@ -8,4 +8,4 @@ clean:
 	go clean
 
 docker:
-	docker build -t mxr/niilo-bot:latest .
+	docker build -t mxr/herra_snellman:latest .
