@@ -14,6 +14,9 @@ var (
 	List = []*discordgo.ApplicationCommand{
 		&quoteInfo,
 		&addQuoteInfo,
+		&siitinInfo,
+		&spotifyInfo,
+		&liveInfo,
 	}
 
 	Handlers = map[string]func(
@@ -21,6 +24,9 @@ var (
 		i *discordgo.InteractionCreate){
 		quoteInfo.Name:    quoteCmd,
 		addQuoteInfo.Name: addQuoteCmd,
+		siitinInfo.Name:   siitinCmd,
+		spotifyInfo.Name:  spotifyCmd,
+		liveInfo.Name:     liveCmd,
 	}
 )
 
