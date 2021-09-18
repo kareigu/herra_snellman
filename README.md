@@ -1,6 +1,6 @@
-# Niilo22 Bot
+# Herra Snellman
 
-## Used for posting and managing niilo22 quotes on Discord
+## Used for posting and managing quotes on Discord
 
 ---
 
