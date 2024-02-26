@@ -3,3 +3,5 @@ services:
     image: mxr/herra_snellman
     container_name: herra_snellman
     restart: unless-stopped
+    volumes:
+      - ./.env:/go/src/herra_snellman/.env
